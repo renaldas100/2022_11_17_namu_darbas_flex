@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* HEADER */
+
+.header{
+    max-width: 1300px;
+    min-height: 90px;
+    border: red solid 2px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+       
+}
+
+.header_logo a{
+    color: black;
+    text-decoration: none;
+               
+}
+
+.header_logo{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.header_logo span{
+    color: #50b9e1;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+
+}
+
+.header_nav li, .header_nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.header_nav_1 li{
+    margin: 0 5px;
+}
+
+.header_nav_1, .header_nav_2{
+    display: inline-block;
+    font-size: 13px;
+        
+}
+
+.header_nav_2{
+    margin: 0 15px;
+}
+
+.header_nav_2 img{
+    width: 20px;
+    margin: 0 3px;
+    padding: 3px;
+    border: black solid 1px;
+    border-radius: 50px;
+   
+}
+
+/* HEADER */
+
+/* WRAPPER_1 */
+
+.wrapper_1{
+    max-width: 1300px;
+    min-height: 670px;
+    border: red solid 2px;
+    margin: 0 auto;
+    background-image: url(../Images/kids_main.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+}
+
+.wrapper_1_container{
+    max-width: 60%;
+    min-height: 670px;
+    border: red solid 2px;display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper_1_text h1{
+    font-size: 66px;
+    color: white;
+    max-width: 500px;
+    margin-bottom: 25px;
+
+}
+
+.wrapper_1_button a{
+    color: white;
+    font-size: 26px;
+    background: transparent;
+    border: white solid 2px;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 25px;
+}

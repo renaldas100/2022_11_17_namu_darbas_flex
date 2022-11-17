@@ -1,0 +1,16 @@
+font family   => "PT Sans", sans-serif 
+primary color => #50b9e1 as the primary color
+h1 	      => font size 66px
+
+button =>
+Font size - 26px
+Background - transparent
+Border width - 2px
+Border color - white
+Border style - solid
+
+
+kitos sekcijos Antraštė
+Font size - 32px
+Font style - italic
+Letter spacing - 2px
